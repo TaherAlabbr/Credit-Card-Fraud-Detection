@@ -18,14 +18,20 @@ The dataset is the [Kaggle Credit Card Fraud Detection Dataset](https://www.kagg
 * Compared six resampling methods: No resampling, Random Undersampling, NearMiss, KMeans Undersampling (custom), Random Oversampling, and SMOTE.
 * Evaluated **five machine learning models**: Logistic Regression, Random Forest, K-Nearest Neighbors, Neural Network, and Voting Classifier.
 * Optimized thresholds per model based on F1 score using validation sets.
-* The Voting Classifier ensemble achieved:
-  * **F1 Score:** 83.60%
-  * **Precision:** 85.87%
-  * **Recall:** 81.44%
 * Conducted feature importance analysis, t-SNE visualization, and engineered key interaction features.
 * Carefully avoided data leakage and ensured evaluation mimics real-world deployment.
 
 ---
+
+> #### ✍️ My Contributions:
+
+* Implemented and evaluated 5 ML models with 6 resampling strategies
+* Developed a custom KMeans-based undersampler
+* Wrote modular and reusable training/testing scripts with CLI support
+* Tuned decision thresholds per model using F1 optimization
+* Conducted EDA with correlation heatmaps, t-SNE plots, and fraud/normal feature comparisons
+* Documented results and analysis in a professional project report
+
 
 ## 🧪 Model Performance Overview
 
@@ -52,11 +58,24 @@ The dataset is the [Kaggle Credit Card Fraud Detection Dataset](https://www.kagg
 ## 📂 Project Structure
 
 ```
-├── data/                   # Raw and processed datasets
-├── notebooks/              # Jupyter notebooks for exploration and analysis
-├── src/                    # Source code for model training and evaluation
-├── reports/                # Generated reports and visualizations
-├── requirements.txt        # Project dependencies
-└── README.md               # Project overview and instructions
-```
+credit_fraud/
+│
+├── credit_fraud.ipynb                # Jupyter notebook for EDA, training & evaluation
+├── Project Report.pdf                # Final written report
+│
+├── credit_fraud_train.py            # Script to train models
+├── credit_fraud_test.py             # Script to test models
+│
+├── credit_fraud_utils_data.py       # Data loading, cleaning, splitting
+├── credit_fraud_utils_eval.py       # Evaluation metrics & visualizations
+├── credit_fraud_utils.py            # Shared utilities (e.g., logging, helpers)
+│
+├── kmeans_undersampler.py           # Custom KMeans-based undersampling method
+├── cli_args.py                      # Command-line argument parsing
+│
+└── saved_models/                    # Directory to store trained models
+
+
+
+
 
