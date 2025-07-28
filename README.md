@@ -17,21 +17,15 @@ The dataset is the [Kaggle Credit Card Fraud Detection Dataset](https://www.kagg
 
 * Compared six resampling methods: No resampling, Random Undersampling, NearMiss, KMeans Undersampling (custom), Random Oversampling, and SMOTE.
 * Evaluated **five machine learning models**: Logistic Regression, Random Forest, K-Nearest Neighbors, Neural Network, and Voting Classifier.
+* Developed a custom KMeans-based undersampler
 * Optimized thresholds per model based on F1 score using validation sets.
 * Conducted feature importance analysis, t-SNE visualization, and engineered key interaction features.
 * Carefully avoided data leakage and ensured evaluation mimics real-world deployment.
-
----
-
-> #### ✍️ My Contributions:
-
-* Implemented and evaluated 5 ML models with 6 resampling strategies
-* Developed a custom KMeans-based undersampler
-* Wrote modular and reusable training/testing scripts with CLI support
-* Tuned decision thresholds per model using F1 optimization
 * Conducted EDA with correlation heatmaps, t-SNE plots, and fraud/normal feature comparisons
 * Documented results and analysis in a professional project report
+*  Wrote modular and reusable training/testing scripts with CLI support
 
+---
 
 ## 🧪 Model Performance Overview
 
@@ -74,7 +68,22 @@ credit_fraud/
 ├── cli_args.py                      # Command-line argument parsing
 │
 └── saved_models/                    # Directory to store trained models
+```
 
+## 🤝 Acknowledgements
+
+- Dataset: [Kaggle Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
+- Inspired by real-world challenges in secure finance and anomaly detection
+
+---
+
+## 📬 Contact
+
+**Author:** Taher Alabbar  
+**LinkedIn:** [Your LinkedIn URL]  
+**Email:** [t.alabbar.ca@gmail.com]  
+
+Feel free to reach out if you have questions or would like to collaborate!
 
 
 
