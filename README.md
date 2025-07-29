@@ -1,7 +1,3 @@
-Got it! Here's your `README.md` rewritten without emojis, with clean and professional segmentation:
-
----
-
 # Fraud Detection with Machine Learning
 
 **A Comparative Study of Resampling and Modeling Strategies**
@@ -157,5 +153,5 @@ Python 3.9 or later is required for full compatibility.
 ## Contact
 
 **Author:** Taher Alabbar
-**Email:** [t.alabbar.ca@gmail.com](mailto:t.alabbar.ca@gmail.com)
+**Email:** [t.alabbar.ca@gmail.com](mailto:t.alabbar.ca@gmail.com)  
 [**LinkedIn**](https://www.linkedin.com/in/taher-alabbar/)  
