@@ -140,10 +140,6 @@ Python 3.9 or later is required for full compatibility.
 
 ---
 
-Absolutely, here's your **clean, emoji-free version** of the **Command-Line Interface (CLI Options)** section for your `README.md` — tailored specifically to your fraud detection project:
-
----
-
 ## Command-Line Interface (CLI Options)
 
 This project supports flexible configuration via command-line arguments using `argparse`. Below is a breakdown of available CLI options by category.
@@ -216,6 +212,19 @@ This project supports flexible configuration via command-line arguments using `a
 | `--grid-search`    | Enable `GridSearchCV` for hyperparameter tuning |
 | `--cost-sensitive` | Use cost-sensitive learning via class weighting |
 
+## Example Usage
+
+Train a neural network with SMOTE and PCA:
+
+```bash
+python scripts/credit_fraud_train.py \
+    --train-dir data/split/trainval.csv \
+    --model NN \
+    --balance smote \
+    --scaling standard \
+    --use-pca \
+    --model-name smote_nn_pca
+```
 ---
 
 
