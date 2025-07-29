@@ -21,7 +21,7 @@ The dataset is the [Kaggle Credit Card Fraud Detection Dataset](https://www.kagg
 * Optimized thresholds per model based on F1 score using validation sets.
 * Conducted feature importance analysis, t-SNE visualization, and engineered key interaction features.
 * Carefully avoided data leakage and ensured evaluation mimics real-world deployment.
-* Conducted EDA with correlation heatmaps, t-SNE plots, and fraud/normal feature comparisons
+* Conducted EDA with correlation heatmaps and fraud/normal feature comparisons
 * Documented results and analysis in a professional project report
 *  Wrote modular and reusable training/testing scripts with CLI support
 
@@ -91,7 +91,7 @@ credit_fraud/
 ## 📬 Contact
 
 **Author:** Taher Alabbar  
-[**LinkedIn**](https://www.linkedin.com/in/taher-alabbar/)  , **Email:** t.alabbar.ca@gmail.com  
+**Email:** t.alabbar.ca@gmail.com , [**LinkedIn**](https://www.linkedin.com/in/taher-alabbar/)  
 
 
 Feel free to reach out if you have questions or would like to collaborate!
