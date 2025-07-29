@@ -88,7 +88,7 @@ The report includes:
 * Model evaluation and threshold tuning
 * Metric interpretation and real-world considerations
 
-[View Full Report (PDF)](project_report.pdf)
+[View Full Report (PDF)](reports/project_report.pdf)
 
 ---
 
