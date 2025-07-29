@@ -38,6 +38,24 @@ The dataset is the [Kaggle Credit Card Fraud Detection Dataset](https://www.kagg
 
 ---
 
+## 📄 Full Report
+
+The full report offers a detailed overview of the entire project, including:
+
+* Motivation and goals of the fraud detection task
+* EDA insights with visualizations
+* Feature engineering strategies
+* Comparison of six resampling techniques
+* Evaluation of five models and a voting ensemble
+* Threshold tuning and performance metrics
+* Preprocessing best practices and reproducibility
+
+It’s written for both technical and non-technical readers and reflects real-world modeling considerations.
+
+👉 [**Review Full Report (PDF)**](./Project%20Report.pdf)
+
+---
+
 ## 🧰 Tools and Technologies
 
 * Python 3.9+
@@ -77,7 +95,3 @@ credit_fraud/
 [**LinkedIn**](https://www.linkedin.com/in/taher-alabbar/) 
 
 Feel free to reach out if you have questions or would like to collaborate!
-
-
-
-
