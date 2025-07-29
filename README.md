@@ -82,7 +82,7 @@ A custom KMeans-based undersampling method is also developed to handle class imb
 The report includes:
 
 * Motivation and problem framing
-* Exploratory data analysis and class distribution
+* Exploratory data analysis insights and class distribution
 * Feature engineering strategies
 * In-depth resampling method comparison
 * Model evaluation and threshold tuning
