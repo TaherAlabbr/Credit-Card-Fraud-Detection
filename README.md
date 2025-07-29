@@ -1,6 +1,11 @@
 # 🛡️ Fraud Detection with Machine Learning: A Comparative Study of Resampling and Modeling Strategies
 
-This project addresses credit card fraud detection using supervised machine learning. Due to the highly imbalanced nature of the dataset (\~0.17% fraud cases), it evaluates six resampling techniques applied across **five classifiers**: Logistic Regression, Random Forest, K-Nearest Neighbors, Neural Network, and Voting Classifier ensemble. The ensemble combines the strengths of the base models to enhance detection robustness.
+This project addresses credit card fraud detection using supervised machine learning in a fully end-to-end pipeline — from data ingestion and cleaning to model training, evaluation, and reporting.
+
+Due to the highly imbalanced nature of the dataset (~0.17% fraud cases), six resampling techniques are evaluated across five classifiers: Logistic Regression, Random Forest, K-Nearest Neighbors, a Neural Network, and a Voting Classifier ensemble. The ensemble boosts detection performance by combining the strengths of the base models.
+
+It also includes a custom-built KMeans-based undersampler, modular CLI-based scripts, and detailed metric visualizations, making it a robust showcase of real-world fraud detection and imbalanced classification.
+
 
 ---
 
