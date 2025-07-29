@@ -2,7 +2,8 @@
 
 **A Comparative Study of Resampling and Modeling Strategies**
 
-An end-to-end machine learning pipeline for detecting fraudulent credit card transactions using advanced resampling techniques and ensemble modeling strategies.
+An end-to-end machine learning pipeline for detecting fraudulent credit card transactions, leveraging advanced resampling techniques and ensemble modeling to tackle class imbalance and improve predictive performance.
+
 
 ---
 
