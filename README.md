@@ -70,7 +70,7 @@ It’s written for both technical and non-technical readers and reflects real-wo
 ## 📂 Project Structure
 
 ```
-credit_fraud/
+Credit-Card-Fraud-Detection/
 │
 ├── credit_fraud.ipynb                # Jupyter notebook for EDA, training & evaluation
 ├── Project Report.pdf                # Final written report
