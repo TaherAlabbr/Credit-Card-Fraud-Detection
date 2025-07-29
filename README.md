@@ -103,20 +103,19 @@ Credit-Card-Fraud-Detection/
 │   └── Project Report.pdf               # Final written report
 │
 ├── scripts/
-│   ├── train/
-│   │   └── credit_fraud_train.py        # Model training script
-│   ├── test/
-│   │   └── credit_fraud_test.py         # Model testing script
-│   └── utils/
-│       ├── credit_fraud_utils_data.py   # Data loading, cleaning, and splitting
-│       ├── credit_fraud_utils_eval.py   # Evaluation metrics and plots
-│       ├── credit_fraud_utils.py        # Shared utilities (e.g., logging)
-│       ├── kmeans_undersampler.py       # Custom KMeans undersampling method
-│       └── cli_args.py                  # CLI argument parser
+│   ├── credit_fraud_train.py            # Model training script
+│   ├── credit_fraud_test.py             # Model testing script
+│
+│   # Utility modules
+│   ├── credit_fraud_utils_data.py       # Data loading, cleaning, and splitting
+│   ├── credit_fraud_utils_eval.py       # Evaluation metrics and plots
+│   ├── credit_fraud_utils.py            # Shared utilities (e.g., logging)
+│   ├── kmeans_undersampler.py           # Custom KMeans undersampling method
+│   └── cli_args.py                      # CLI argument parser
 │
 ├── saved_models/                        # Trained model artifacts
-├── README.md                           # Project overview and instructions
-└── requirements.txt                    # Python package dependencies
+├── README.md                            # Project overview and instructions
+└── requirements.txt                     # Python package dependencies
 
 ```
 
