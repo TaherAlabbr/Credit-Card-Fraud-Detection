@@ -140,6 +140,86 @@ Python 3.9 or later is required for full compatibility.
 
 ---
 
+Absolutely, here's your **clean, emoji-free version** of the **Command-Line Interface (CLI Options)** section for your `README.md` — tailored specifically to your fraud detection project:
+
+---
+
+## Command-Line Interface (CLI Options)
+
+This project supports flexible configuration via command-line arguments using `argparse`. Below is a breakdown of available CLI options by category.
+
+### File Paths
+
+| Argument       | Description                                                                         |
+| -------------- | ----------------------------------------------------------------------------------- |
+| `--train-dir`  | Path to the training dataset CSV (default: `data/split/trainval.csv`)               |
+| `--test-dir`   | Path to the test dataset CSV (default: `data/split/test.csv`)                       |
+| `--save-dir`   | Directory to save trained model artifacts (default: `saved_models/`)                |
+| `--load-dir`   | Path to load a saved model for evaluation (default: `saved_models/final_model.pkl`) |
+| `--model-name` | 	Name used when saving the model file (e.g., `model_v1.pkl`)                        |
+
+### Preprocessing Options
+
+| Argument             | Description                                                                                                     |
+| -------------------- | --------------------------------------------------------------------------------------------------------------- |
+| `--scaling`          | Feature scaling method: `standard`, `minmax`, `robust`, or `raw`                                                |
+| `--balance`          | Class balancing method: `none`, `undersample`, `nearmiss`, `kmeans`, `cluster_centroids`, `oversample`, `smote` |
+| `--n-neighbors`      | Number of neighbors for SMOTE or NearMiss (default: `5`)                                                        |
+| `--nearmiss-version` | Version of NearMiss to use (`1`, `2`, or `3`)                                                                   |
+| `--n-clusters`       | Number of clusters for KMeans undersampling (default: `500`)                                                    |
+| `--use-pca`          | Flag to apply PCA before training (default: `False`)                                                            |
+| `--n-components`     | Number of PCA components to retain (default: `18`)                                                              |
+
+### Model Selection
+
+| Argument  | Description                                                                  |
+| --------- | ---------------------------------------------------------------------------- |
+| `--model` | Model to train: `LR` (Logistic Regression), `NN` (MLP), `RF`, `VC`, or `KNN` |
+
+### Model Hyperparameters
+
+#### K-Nearest Neighbors (KNN)
+
+| Argument            | Description                               |
+| ------------------- | ----------------------------------------- |
+| `--knn-n-neighbors` | Number of neighbors to use (default: `7`) |
+| `--knn-weights`     | Weight strategy: `uniform` or `distance`  |
+
+#### Logistic Regression (LR)
+
+| Argument        | Description                                       |
+| --------------- | ------------------------------------------------- |
+| `--lr-c`        | Inverse of regularization strength (default: `1`) |
+| `--lr-max-iter` | Maximum iterations (default: `10000`)             |
+
+#### Random Forest (RF)
+
+| Argument            | Description                          |
+| ------------------- | ------------------------------------ |
+| `--rf-n-estimators` | Number of trees (default: `100`)     |
+| `--rf-max-depth`    | Maximum tree depth (default: `None`) |
+
+#### Neural Network (NN / MLP)
+
+| Argument             | Description                                         |
+| -------------------- | --------------------------------------------------- |
+| `--nn-hidden-layers` | Comma-separated hidden layer sizes (e.g., `128,64`) |
+| `--nn-max-iter`      | Maximum training iterations (default: `3000`)       |
+| `--nn-activation`    | Activation function: `relu`, `tanh`, or `logistic`  |
+| `--nn-lr`            | Learning rate (default: `0.001`)                    |
+| `--nn-alpha`         | L2 regularization parameter (default: `0.001`)      |
+
+### Additional Options
+
+| Argument           | Description                                     |
+| ------------------ | ----------------------------------------------- |
+| `--grid-search`    | Enable `GridSearchCV` for hyperparameter tuning |
+| `--cost-sensitive` | Use cost-sensitive learning via class weighting |
+
+---
+
+
+
 ## Tools and Technologies
 
 * Python 3.9+
