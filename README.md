@@ -246,5 +246,4 @@ python scripts/credit_fraud_train.py \
 ## Contact
 
 **Author:** Taher Alabbar  
-**Email:** [t.alabbar.ca@gmail.com](mailto:t.alabbar.ca@gmail.com)  
-[**LinkedIn**](https://www.linkedin.com/in/taher-alabbar/)  
+**Email:** [t.alabbar.ca@gmail.com](mailto:t.alabbar.ca@gmail.com), [**LinkedIn**](https://www.linkedin.com/in/taher-alabbar/)  
