@@ -91,7 +91,8 @@ credit_fraud/
 ## 📬 Contact
 
 **Author:** Taher Alabbar  
-**Email:** t.alabbar.ca@gmail.com  
 [**LinkedIn**](https://www.linkedin.com/in/taher-alabbar/) 
+**Email:** t.alabbar.ca@gmail.com  
+
 
 Feel free to reach out if you have questions or would like to collaborate!
