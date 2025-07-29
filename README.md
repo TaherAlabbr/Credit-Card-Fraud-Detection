@@ -114,7 +114,10 @@ Credit-Card-Fraud-Detection/
 │       ├── kmeans_undersampler.py       # Custom KMeans undersampling method
 │       └── cli_args.py                  # CLI argument parser
 │
-└── saved_models/                        # Trained model artifacts
+├── saved_models/                        # Trained model artifacts
+├── README.md                           # Project overview and instructions
+└── requirements.txt                    # Python package dependencies
+
 ```
 
 ---
