@@ -152,6 +152,6 @@ Python 3.9 or later is required for full compatibility.
 ---
 ## Contact
 
-**Author:** Taher Alabbar
+**Author:** Taher Alabbar  
 **Email:** [t.alabbar.ca@gmail.com](mailto:t.alabbar.ca@gmail.com)  
 [**LinkedIn**](https://www.linkedin.com/in/taher-alabbar/)  
