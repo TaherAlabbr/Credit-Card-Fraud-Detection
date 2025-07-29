@@ -102,7 +102,7 @@ git clone https://github.com/your-username/Credit-Card-Fraud-Detection.git
 cd Credit-Card-Fraud-Detection
 ```
 
-To install all required dependencies, run:
+Second, install all required dependencies, run:
 
 ```bash
 pip install -r requirements.txt
