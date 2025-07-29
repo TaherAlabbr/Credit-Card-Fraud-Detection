@@ -95,6 +95,13 @@ Credit-Card-Fraud-Detection/
 ---
 ## 🛠️ Installation
 
+First, clone the repository:
+
+```bash
+git clone https://github.com/your-username/Credit-Card-Fraud-Detection.git
+cd Credit-Card-Fraud-Detection
+```
+
 To install all required dependencies, run:
 
 ```bash
