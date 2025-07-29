@@ -70,13 +70,6 @@ credit_fraud/
 └── saved_models/                    # Directory to store trained models
 ```
 
-## 🤝 Acknowledgements
-
-- Dataset: [Kaggle Credit Card Fraud Detection](https://www.kaggle.com/mlg-ulb/creditcardfraud)
-- Inspired by real-world challenges in secure finance and anomaly detection
-
----
-
 ## 📬 Contact
 
 **Author:** Taher Alabbar  
