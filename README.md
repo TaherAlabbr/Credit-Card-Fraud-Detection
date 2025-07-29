@@ -11,6 +11,7 @@ An end-to-end machine learning pipeline for detecting fraudulent credit card tra
 This project addresses credit card fraud detection using supervised machine learning on a highly imbalanced dataset (\~0.17% fraud cases). It implements a complete pipeline from:
 
 * Data preprocessing and exploratory analysis
+* Feature engineering to enhance model performance, supported by feature importance analysis to better understand influential variables
 * Resampling strategy implementation
 * Model training, threshold tuning, and evaluation
 * Ensemble modeling and performance comparison
