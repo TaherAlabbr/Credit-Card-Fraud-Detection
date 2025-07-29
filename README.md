@@ -52,7 +52,7 @@ The full report offers a detailed overview of the entire project, including:
 
 It’s written for both technical and non-technical readers and reflects real-world modeling considerations.
 
-👉 [**Review Full Report (PDF)**](project-report.pdf)
+👉 [**Review Full Report (PDF)**](project_report.pdf)
 
 ---
 
