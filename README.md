@@ -55,18 +55,6 @@ It’s written for both technical and non-technical readers and reflects real-wo
 👉 [**Review Full Report (PDF)**](project_report.pdf)
 
 ---
-
-## 🧰 Tools and Technologies
-
-* Python 3.9+
-* scikit-learn (used for classifiers and feature importance analysis, e.g., Random Forest)
-* imbalanced-learn (for resampling techniques)
-* matplotlib, seaborn (for visualizations)
-* numpy, pandas (for data manipulation)
-* t-SNE (from `sklearn.manifold`) for dimensionality reduction
-
----
-
 ## 📂 Project Structure
 
 ```
@@ -109,6 +97,16 @@ pip install -r requirements.txt
 ```
 
 Make sure you're using **Python 3.9 or later** for full compatibility.
+---
+## 🧰 Tools and Technologies
+
+* Python 3.9+
+* scikit-learn (used for classifiers and feature importance analysis, e.g., Random Forest)
+* imbalanced-learn (for resampling techniques)
+* matplotlib, seaborn (for visualizations)
+* numpy, pandas (for data manipulation)
+* t-SNE (from `sklearn.manifold`) for dimensionality reduction
+
 ---
 
 ## 📬 Contact
