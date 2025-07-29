@@ -87,6 +87,17 @@ Credit-Card-Fraud-Detection/
 │
 └── saved_models/                    # Directory to store trained models
 ```
+---
+## 🛠️ Installation
+
+To install all required dependencies, run:
+
+```bash
+pip install -r requirements.txt
+```
+
+Make sure you're using **Python 3.9 or later** for full compatibility.
+---
 
 ## 📬 Contact
 
