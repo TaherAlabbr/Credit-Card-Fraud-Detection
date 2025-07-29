@@ -1,1 +1,27 @@
+# Core scientific libraries
+numpy==2.2.3
+pandas==2.2.3
+scikit-learn==1.6.1
+scipy==1.15.2
+xgboost==3.0.2
+joblib==1.4.2
+threadpoolctl==3.5.0
 
+# Visualization
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# Resampling
+imbalanced-learn==0.13.0
+
+# Utilities
+tqdm==4.67.1
+requests==2.32.3
+urllib3==2.4.0
+python-dateutil==2.9.0.post0
+packaging==25.0
+
+# Jupyter support
+ipykernel==6.29.5
+jupyter_client==8.6.3
+notebook==7.4.1
