@@ -9,16 +9,9 @@ An end-to-end machine learning pipeline for detecting fraudulent credit card tra
 
 ## Overview
 
-This project addresses credit card fraud detection using supervised machine learning on a highly imbalanced dataset (\~0.17% fraud cases). It implements a complete pipeline from:
+This project tackles credit card fraud detection using supervised machine learning on a highly imbalanced dataset (\~0.18% fraud cases). It builds a complete and modular pipeline that spans data preprocessing, exploratory analysis, feature engineering, and advanced resampling strategies to address imbalance.
 
-* Data preprocessing and exploratory analysis
-* Feature engineering to enhance model performance, supported by feature importance analysis to better understand influential variables
-* Resampling strategy implementation
-* Model training, threshold tuning, and evaluation
-* Ensemble modeling and performance comparison
-* Modular scripting with command-line interface (CLI) support
-
-A custom KMeans-based undersampling method is also developed to handle class imbalance more intelligently than naive undersampling.
+Several models—including logistic regression, random forest, KNN, neural networks, and an ensemble voting classifier—are trained and evaluated using threshold tuning and F1-based validation. A custom KMeans-based undersampling method is developed to intelligently reduce the majority class while preserving meaningful structure. The entire pipeline is designed for reproducibility, supports command-line configuration, and follows modular, clean coding practices.
 
 ---
 
@@ -34,37 +27,29 @@ A custom KMeans-based undersampling method is also developed to handle class imb
   * Class (target: 1 = fraud, 0 = legitimate)
 
 ---
-
 ## Key Highlights
 
-* Implemented six resampling techniques:
+* Custom KMeans-based undersampler developed to improve representation of the majority class while preserving data structure
+* Implemented six resampling techniques to address class imbalance:
 
-  * No resampling
   * Random Undersampling
   * NearMiss
-  * KMeans Undersampling (custom)
-  * Random Oversampling
+  * Tomek Links
+  * Edited Nearest Neighbors (ENN)
   * SMOTE
-
-* Evaluated five machine learning models:
+  * Custom KMeans-based undersampling
+* Trained and compared five machine learning models:
 
   * Logistic Regression
   * Random Forest
   * K-Nearest Neighbors
-  * Neural Network
-  * Voting Classifier (ensemble)
-
-* Developed a custom KMeans-based undersampler
-
-* Performed threshold tuning based on validation F1 score
-
-* Analyzed feature importance and conducted dimensionality reduction using t-SNE
-
-* Avoided data leakage with proper separation and reproducibility
-
-* Designed clean, modular, CLI-driven training/testing pipelines
-
-* Created a comprehensive, professional project report
+  * Neural Network (MLPClassifier)
+  * Ensemble Voting Classifier combining top performers
+* Feature engineering to enhance model performance, supported by feature importance analysis to identify influential variables
+* Applied threshold tuning based on F1-score to better balance precision and recall
+* Modular, CLI-driven architecture for reproducible and configurable experimentation
+* Professional final report and cleanly structured Jupyter notebooks for analysis, experimentation, and reproducibility
+* Designed for easy extensibility to test new resampling or modeling approaches
 
 ---
 
