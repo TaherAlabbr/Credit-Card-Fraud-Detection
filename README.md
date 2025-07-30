@@ -29,7 +29,6 @@ Several models—including logistic regression, random forest, KNN, neural netwo
 ---
 ## Key Highlights
 
-* Custom KMeans-based undersampler developed to improve representation of the majority class while preserving data structure
 * Implemented six resampling techniques to address class imbalance:
 
   * Random Undersampling
@@ -45,6 +44,7 @@ Several models—including logistic regression, random forest, KNN, neural netwo
   * K-Nearest Neighbors
   * Neural Network (MLPClassifier)
   * Ensemble Voting Classifier combining top performers
+* Custom KMeans-based undersampler developed to improve representation of the majority class while preserving data structure
 * Feature engineering to enhance model performance, supported by feature importance analysis to identify influential variables
 * Applied threshold tuning based on F1-score to better balance precision and recall
 * Modular, CLI-driven architecture for reproducible and configurable experimentation
