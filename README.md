@@ -79,7 +79,7 @@ A custom KMeans-based undersampling method is also developed to handle class imb
 
 ---
 
-## Full Report
+## 📄 Full Report
 
 The report includes:
 
@@ -90,7 +90,8 @@ The report includes:
 * Model evaluation and threshold tuning
 * Metric interpretation and real-world considerations
 
-[View Full Report (PDF)](reports/project_report.pdf)
+👉 [**View Full Report (PDF)**](reports/project_report.pdf)
+
 
 ---
 
