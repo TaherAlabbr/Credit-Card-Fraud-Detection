@@ -30,13 +30,14 @@ Several models—including logistic regression, random forest, KNN, neural netwo
 ## Key Highlights
 
 * Implemented six resampling techniques to address class imbalance:
-
+  
+  * baseline (cost-sensetive)
   * Random Undersampling
   * NearMiss
-  * Tomek Links
-  * Edited Nearest Neighbors (ENN)
-  * SMOTE
   * Custom KMeans-based undersampling
+  * Random Oversampling
+  * SMOTE
+    
 * Trained and compared five machine learning models:
 
   * Logistic Regression
