@@ -1,4 +1,4 @@
-# Fraud Detection with Machine Learning
+# Credit Card Fraud Detection: A Complete ML Pipeline
 
 **A Comparative Study of Resampling and Modeling Strategies**
 
