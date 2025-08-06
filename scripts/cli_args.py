@@ -23,19 +23,19 @@ def parse_args():
     )
 
     # === File Paths ===
-    parser.add_argument('--train-dir', type=str, default='data/split/trainval.csv',
+    parser.add_argument('--train-dir', type=str, default='../data/split/trainval.csv',
         metavar='TRAIN_FILE_PATH',
         help='Path to the training dataset CSV file (default: %(default)s)')
 
-    parser.add_argument('--test-dir', type=str, default='data/split/test.csv',
+    parser.add_argument('--test-dir', type=str, default='../data/split/test.csv',
         metavar='TEST_FILE_PATH',
         help='Path to the testing dataset CSV file (default: %(default)s)')
 
-    parser.add_argument('--save-dir', type=str, default='saved_models',
+    parser.add_argument('--save-dir', type=str, default='../saved_models',
         metavar='SAVE_MODEL_DIR',
         help='Directory to save trained model artifacts (default: %(default)s)')
 
-    parser.add_argument('--load-dir', type=str, default='saved_models/model_bundel.pkl',
+    parser.add_argument('--load-dir', type=str, default='../saved_models/model_bundel.pkl',
         metavar='LOAD_MODEL_PATH',
         help='Path to load a saved model for evaluation or inference (default: %(default)s)')
 
