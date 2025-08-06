@@ -98,6 +98,9 @@ The report includes:
 
 ```
 Credit-Card-Fraud-Detection/
+├── images/
+│   └── flowchart.png                    # Workflow flowchart used in README
+│
 ├── notebooks/
 │   └── credit_fraud.ipynb               # EDA, training & evaluation
 │
