@@ -102,9 +102,9 @@ Credit-Card-Fraud-Detection/
 │   └── flowchart.png                    # Workflow flowchart used in README
 │
 ├── notebooks/
-│   └── credit_fraud.ipynb               # EDA, training & evaluation
+│   └── credit_fraud.ipynb               # EDA
 │
-├── reports/
+├── summary/
 │   └── Project Report.pdf               # Final written report
 │
 ├── scripts/
@@ -113,8 +113,7 @@ Credit-Card-Fraud-Detection/
 │
 │   # Utility modules
 │   ├── credit_fraud_utils_data.py       # Data loading, cleaning, and splitting
-│   ├── credit_fraud_utils_eval.py       # Evaluation metrics and plots
-│   ├── credit_fraud_utils.py            # Shared utilities (e.g., logging)
+│   ├── credit_fraud_utils_eval.py       # Evaluation metrics 
 │   ├── kmeans_undersampler.py           # Custom KMeans undersampling method
 │   └── cli_args.py                      # CLI argument parser
 │
