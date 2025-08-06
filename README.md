@@ -25,9 +25,8 @@ The best-performing model was selected through threshold tuning and F1-score opt
 ## Workflow
 
 <div align="center">
-  <img src="images/flowchart.png" alt="Workflow Flowchart" width="600"/>
+  <img src="images/flowchart.png" alt="Workflow Flowchart"/>
 </div>
-
 
 
 ---
