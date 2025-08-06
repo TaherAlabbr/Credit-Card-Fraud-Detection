@@ -13,9 +13,13 @@ An end-to-end machine learning pipeline for detecting fraudulent credit card tra
 
 ## Overview
 
-This project tackles credit card fraud detection using supervised machine learning on a highly imbalanced dataset (\~0.18% fraud cases). It builds a complete and modular pipeline that spans data preprocessing, exploratory analysis, feature engineering, and advanced resampling strategies to address imbalance.
+This project tackles credit card fraud detection using supervised machine learning on a highly imbalanced dataset (\~0.18% fraud cases). It builds a complete and modular pipeline that spans data preprocessing, exploratory analysis, feature engineering, and advanced resampling strategies to address class imbalance.
 
-Several models—including logistic regression, random forest, KNN, neural networks, and an ensemble voting classifier—are trained and evaluated using threshold tuning and F1-based validation. A custom KMeans-based undersampling method is developed to intelligently reduce the majority class while preserving meaningful structure. The entire pipeline is designed for reproducibility, supports command-line configuration, and follows modular, clean coding practices.
+To improve model performance and robustness, multiple resampling techniques—such as random undersampling, SMOTE (Synthetic Minority Oversampling Technique), and a custom KMeans-based undersampling method—were applied selectively with different models. We experimented with various classifiers, including logistic regression, random forest, K-Nearest Neighbors (KNN), neural networks, and an ensemble voting classifier, each combined with the resampling technique best suited to its learning characteristics.
+
+After thorough evaluation using threshold tuning and F1-score optimization on validation data, the best performing model was selected. Subsequent feature engineering was then applied specifically to this final model to further enhance its predictive performance and generalization.
+
+The resulting pipeline is designed for reproducibility, supports command-line configuration, and follows modular, clean coding practices—making it both practical and adaptable for real-world fraud detection scenarios.
 
 ---
 
@@ -60,12 +64,13 @@ Several models—including logistic regression, random forest, KNN, neural netwo
 
 ## Model Performance Overview
 
-| Model                          | F1 Score | Precision | Recall |
-| ------------------------------ | -------- | --------- | ------ |
-| Neural Network (no resampling) | 85.56%   | 88.89%    | 82.47% |
-| Random Forest (baseline)       | 81.03%   | 80.61%    | 81.44% |
-| K-Nearest Neighbors (baseline) | 81.77%   | 88.10%    | 76.29% |
-| Voting Classifier (ensemble)   | 83.60%   | 85.87%    | 81.44% |
+| Model                          | F1 Score | Precision | Recall  |
+| ------------------------------ | -------- | --------- | ------- |
+| Neural Network (threshold=0.606) | 85.25%   | 90.70%    | 80.41%  |
+| Random Forest (threshold=0.364)   | 84.69%   | 83.84%    | 85.57%  |
+| K-Nearest Neighbors (threshold=0.414) | 87.05%   | 87.50%    | 86.60%  |
+| Voting Classifier (threshold=0.283)   | 86.73%   | 85.86%    | 87.63%  |
+
 
 ---
 
@@ -236,5 +241,5 @@ python scripts/credit_fraud_train.py \
 ---
 ## Contact
 
-**Author:** Taher Alabbar  
+**Author:** Taher Alabbar    
 **Email:** t.alabbar.ca@gmail.com, [**LinkedIn**](https://www.linkedin.com/in/taher-alabbar/)  
