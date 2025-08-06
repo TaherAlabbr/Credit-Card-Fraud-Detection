@@ -20,9 +20,7 @@ To tackle class imbalance and improve performance, we applied techniques like ra
 
 The best-performing model was selected through threshold tuning and F1-score optimization, followed by targeted feature engineering to further boost performance. The pipeline is modular, reproducible, and CLI-configurable—ready for real-world deployment.
 
-<div align="center">
-  <img src="images/flowchart.png" alt="Workflow Flowchart"/>
-</div>
+
 
 
 ---
