@@ -16,7 +16,7 @@ An end-to-end machine learning pipeline for detecting fraudulent credit card tra
 
 This project addresses credit card fraud detection using supervised and unsupervised machine learning on a highly imbalanced dataset (\~0.18% fraud). It builds a complete ML pipeline covering preprocessing, exploratory analysis, feature engineering, and advanced resampling.
 
-To tackle class imbalance and improve performance, we applied techniques like random undersampling, SMOTE, and a custom KMeans-based method, paired with models such as logistic regression, random forest, KNN, neural networks, and an ensemble voting classifier.
+To tackle class imbalance and improve performance, we applied techniques like random undersampling, SMOTE, and a **custom KMeans-based method**, paired with models such as logistic regression, random forest, KNN, neural networks, and an ensemble voting classifier.
 
 The best-performing model was selected through threshold tuning and F1-score optimization, followed by targeted feature engineering to further boost performance. The pipeline is modular, reproducible, and CLI-configurable—ready for real-world deployment.
 
@@ -96,9 +96,6 @@ The report includes:
 
 ```
 Credit-Card-Fraud-Detection/
-├── images/
-│   └── flowchart.png                    # Workflow flowchart used in README
-│
 ├── notebooks/
 │   └── credit_fraud.ipynb               # EDA
 │
