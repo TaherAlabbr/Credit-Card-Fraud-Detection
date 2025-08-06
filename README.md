@@ -13,15 +13,16 @@ An end-to-end machine learning pipeline for detecting fraudulent credit card tra
 
 ## Overview
 
-This project tackles credit card fraud detection using supervised and unsupervised machine learning on a highly imbalanced dataset (\~0.18% fraud cases). It builds a complete and modular pipeline that spans data preprocessing, exploratory analysis, feature engineering, and advanced resampling strategies to address class imbalance.
 
-To improve model performance and robustness, multiple resampling techniques—such as random undersampling, SMOTE (Synthetic Minority Oversampling Technique), and a custom KMeans-based undersampling method—were applied selectively with different models. We experimented with various classifiers, including logistic regression, random forest, K-Nearest Neighbors (KNN), neural networks, and an ensemble voting classifier, each combined with the resampling technique best suited to its learning characteristics.
+This project addresses credit card fraud detection using supervised and unsupervised machine learning on a highly imbalanced dataset (\~0.18% fraud). It builds a complete ML pipeline covering preprocessing, exploratory analysis, feature engineering, and advanced resampling.
 
-After thorough evaluation using threshold tuning and F1-score optimization on validation data, the best performing model was selected. Subsequent feature engineering was then applied specifically to this final model to further enhance its predictive performance and generalization.
+To tackle class imbalance and improve performance, we applied techniques like random undersampling, SMOTE, and a custom KMeans-based method, paired with models such as logistic regression, random forest, KNN, neural networks, and an ensemble voting classifier.
 
-The resulting pipeline is designed for reproducibility, supports command-line configuration, and follows modular, clean coding practices—making it both practical and adaptable for real-world fraud detection scenarios.
+The best-performing model was selected through threshold tuning and F1-score optimization, followed by targeted feature engineering to further boost performance. The pipeline is modular, reproducible, and CLI-configurable—ready for real-world deployment.
+
 
 ---
+
 
 ## Dataset
 
