@@ -146,10 +146,10 @@ This project supports flexible configuration via command-line arguments using `a
 
 | Argument       | Description                                                                         |
 | -------------- | ----------------------------------------------------------------------------------- |
-| `--train-dir`  | Path to the training dataset CSV (default: `data/split/trainval.csv`)               |
-| `--test-dir`   | Path to the test dataset CSV (default: `data/split/test.csv`)                       |
-| `--save-dir`   | Directory to save trained model artifacts (default: `saved_models/`)                |
-| `--load-dir`   | Path to load a saved model for evaluation (default: `saved_models/final_model.pkl`) |
+| `--train-dir`  | Path to the training dataset CSV (default: `../data/split/trainval.csv`)               |
+| `--test-dir`   | Path to the test dataset CSV (default: `../data/split/test.csv`)                       |
+| `--save-dir`   | Directory to save trained model artifacts (default: `../saved_models/`)                |
+| `--load-dir`   | Path to load a saved model for evaluation (default: `../saved_models/final_model.pkl`) |
 | `--model-name` | 	Name used when saving the model file (e.g., `model_v1.pkl`)                        |
 
 ### Preprocessing Options
