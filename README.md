@@ -64,13 +64,12 @@ The resulting pipeline is designed for reproducibility, supports command-line co
 
 ## Model Performance Overview
 
-| Model                          | F1 Score | Precision | Recall  |
-| ------------------------------ | -------- | --------- | ------- |
-| Neural Network (threshold=0.606) | 85.25%   | 90.70%    | 80.41%  |
-| Random Forest (threshold=0.364)   | 84.69%   | 83.84%    | 85.57%  |
-| K-Nearest Neighbors (threshold=0.414) | 87.05%   | 87.50%    | 86.60%  |
-| Voting Classifier (threshold=0.283)   | 86.73%   | 85.86%    | 87.63%  |
-
+| Model                              | F1 Score | Precision | Recall  | PR-AUC  |
+| ---------------------------------- | -------- | --------- | ------- | ------- |
+| Neural Network (threshold=0.606)   | 85.25%   | 90.70%    | 80.41%  | 85.70%  |
+| Random Forest (threshold=0.364)    | 84.69%   | 83.84%    | 85.57%  | 85.01%  |
+| K-Nearest Neighbors (threshold=0.414) | 87.05%   | 87.50%    | 86.60%  | 82.81%  |
+| **Voting Classifier (threshold=0.283)** | **86.73%** | **85.86%** | **87.63%** | **87.73%** |
 
 ---
 
