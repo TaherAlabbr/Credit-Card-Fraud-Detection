@@ -97,24 +97,29 @@ The report includes:
 ```
 Credit-Card-Fraud-Detection/
 ├── notebooks/
-│   └── credit_fraud.ipynb               # EDA
+│   └── credit_fraud.ipynb             # Exploratory Data Analysis (EDA) notebook
 │
 ├── summary/
-│   └── Project Report.pdf               # Final written report
+│   └── Project_Report.pdf             # Final project report document
 │
 ├── scripts/
-│   ├── credit_fraud_train.py            # Model training script
-│   ├── credit_fraud_test.py             # Model testing script
+│   ├── credit_fraud_train.py          # Script for training models
+│   ├── credit_fraud_test.py           # Script for testing models
+│   │
+│   ├── credit_fraud_utils_data.py     # Data loading, cleaning, and splitting functions
+│   ├── credit_fraud_utils_eval.py     # Evaluation metric functions
+│   ├── kmeans_undersampler.py         # Custom KMeans undersampling implementation
+│   └── cli_args.py                    # Command-line argument parser
 │
-│   # Utility modules
-│   ├── credit_fraud_utils_data.py       # Data loading, cleaning, and splitting
-│   ├── credit_fraud_utils_eval.py       # Evaluation metrics 
-│   ├── kmeans_undersampler.py           # Custom KMeans undersampling method
-│   └── cli_args.py                      # CLI argument parser
+├── saved_models/                      # Folder containing all saved models
+│   ├── knn_final_model.pkl
+│   ├── nn_final_model.pkl
+│   ├── rf_feature_importance_model.pkl
+│   ├── rf_final_model.pkl
+│   └── vc_final_model.pkl
 │
-├── saved_models/                        # Trained model artifacts
-├── README.md                            # Project overview and instructions
-└── requirements.txt                     # Python package dependencies
+├── README.md                         # Project overview and usage instructions
+└── requirements.txt                  # Python package dependencies list
 
 ```
 
