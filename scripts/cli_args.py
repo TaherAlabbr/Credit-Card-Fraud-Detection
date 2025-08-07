@@ -35,7 +35,7 @@ def parse_args():
         metavar='SAVE_MODEL_DIR',
         help='Directory to save trained model artifacts (default: %(default)s)')
 
-    parser.add_argument('--load-dir', type=str, default='../saved_models/model_bundel.pkl',
+    parser.add_argument('--load-dir', type=str, default='../saved_models/vc_final_model.pkl',
         metavar='LOAD_MODEL_PATH',
         help='Path to load a saved model for evaluation or inference (default: %(default)s)')
 
